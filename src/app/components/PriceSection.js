@@ -12,7 +12,7 @@ export default function PriceSection() {
         <div className="flex lg:flex-row sm:flex-col items-center justify-center flex-col">
           {PriceCard.map((item, index) => (
             <Pricecard
-              index={item.id}
+              key={item.id}
               btn1={item.btn1}
               btn2={item.btn2}
               title={item.title}

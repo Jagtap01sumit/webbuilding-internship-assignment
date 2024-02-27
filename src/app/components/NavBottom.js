@@ -13,6 +13,7 @@ export default function NavBottom() {
         <hr className="h-px w-full my-2 sm: lg:my-8 bg-gray-200 border-0 dark:bg-gray-700" />
         {cardData.map((item, index) => (
           <Card
+            key={item.id}
             image={item.image}
             boldtext1={item.boldtext1}
             text1={item.text1}
