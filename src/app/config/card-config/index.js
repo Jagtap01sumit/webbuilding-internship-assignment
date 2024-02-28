@@ -2,7 +2,6 @@ import Image from "next/image";
 
 const cardData = [
   {
-    // image ,imgName, boldtext1,text1,boldtext2,text2,cardnum,cardtext
     id: "card-1",
     image: (
       <Image src="./images/img1.png" alt="Image 1" width={300} height={200} />
@@ -44,6 +43,32 @@ const cardData = [
     boldtext2: "Main highlights",
     text2:
       "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
+    cardnum: "9.3",
+    cardtext: "Exceptional",
+  },
+  {
+    id: "card-4",
+    image: {
+      src: "./images/img1.png",
+      alt: "Image 1",
+      width: 300,
+      height: 200,
+    },
+    imgName: "Categories",
+    boldtext1: "WixPro 72-Inch Responsive Website Builder",
+    text1:
+      "- Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
+    boldtext2: "Main Content",
+    subcontent: [
+      { num: 9.9, text: "building Responsive" },
+      { num: 8.9, text: "Cool" },
+      { num: 8.9, text: "Docs" },
+    ],
+    subbottomcontent: [
+      { text: "Documentation" },
+      { text: "Easy to use" },
+      { text: "Out of box" },
+    ],
     cardnum: "9.3",
     cardtext: "Exceptional",
   },

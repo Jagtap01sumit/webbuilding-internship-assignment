@@ -3,13 +3,13 @@ import React from "react";
 export default function Newletter() {
   return (
     <div className="lg:px-64 dark:text-black px-8 my-2 ">
-      <div className="grid grid-cols-2  py-2 pb-5 bg-white rounded-lg  p-2 ">
-        <h1 className="font-light text-xl  text-2xl sm:text-2xl lg:text-4xl flex items-center justify-center text-black">
+      <div className="grid grid-cols-2  py-2  bg-white rounded-lg  p-2 items-center justify-center ">
+        <h1 className="font-light text-xl   sm:text-2xl lg:text-4xl flex items-center justify-center text-black">
           Sign up and get exclusive special deals
         </h1>
         <div className="flex items-center justify-center">
           <form action="#" className="w-full m-2 ">
-            <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
+            <div className="  items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
               <div className="relative w-full">
                 <label
                   htmlFor="email"
@@ -17,7 +17,7 @@ export default function Newletter() {
                 >
                   Email address
                 </label>
-                <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                <div className=" flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                   <svg
                     className="w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"

@@ -21,6 +21,8 @@ export default function NavBottom() {
             boldtext2={item.boldtext2}
             cardnum={item.cardnum}
             cardtext={item.cardtext}
+            subcontent={item.subcontent}
+            subbottomcontent={item.subbottomcontent}
           />
         ))}
       </div>
